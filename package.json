@@ -1,0 +1,48 @@
+{
+  "name": "bootcamp-2019",
+  "version": "0.0.0",
+  "private": true,
+  "watch": {
+    "start": {
+      "patterns": [
+        "routes",
+        "orm",
+        "test"
+      ],
+      "extensions": "js,ts",
+      "ignore": "",
+      "quiet": false,
+      "legacyWatch": true,
+      "delay": 2500,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "start": "ts-node server.ts",
+    "test": "npx jest",
+    "watch": "npm-watch start"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.1.4",
+    "express-validator": "^6.1.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.18"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^8.0.29",
+    "jest": "^24.8.0",
+    "superagent": "^5.1.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333",
+    "npm-watch": "^0.6.0"
+  }
+}

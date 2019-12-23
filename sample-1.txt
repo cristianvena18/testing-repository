@@ -1,0 +1,5 @@
+Producto    Cantidad    Precio  Total
+Tomates  redondos   2 gr        $1.20    $2.4 
+Lechuga     1 kg        3.30 USD    USD3.3 
+Ajo         3 unidades  7.10 $   $ 21.3
+Total:                      $ 27.43
