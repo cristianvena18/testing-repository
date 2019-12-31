@@ -1,0 +1,7 @@
+en la carpeta donde se clonó el repositorio.
+
+para correr la aplicación correr:
+npm install
+
+para correr los test:
+npm test
